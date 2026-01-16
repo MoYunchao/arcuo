@@ -1,0 +1,9 @@
+source;share/cube_pose_fuser/hook/pythonpath.ps1
+source;share/cube_pose_fuser/hook/pythonpath.dsv
+source;share/cube_pose_fuser/hook/pythonpath.sh
+source;share/cube_pose_fuser/hook/ament_prefix_path.ps1
+source;share/cube_pose_fuser/hook/ament_prefix_path.dsv
+source;share/cube_pose_fuser/hook/ament_prefix_path.sh
+source;../../build/cube_pose_fuser/share/cube_pose_fuser/hook/pythonpath_develop.ps1
+source;../../build/cube_pose_fuser/share/cube_pose_fuser/hook/pythonpath_develop.dsv
+source;../../build/cube_pose_fuser/share/cube_pose_fuser/hook/pythonpath_develop.sh

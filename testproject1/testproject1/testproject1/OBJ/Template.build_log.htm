@@ -1,0 +1,91 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 2, 3, LIC=ATTQ1-CTNXF-12ELE-5YT8E-PE1B2-RPHLT
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.23
+Toolchain Path:  D:\apps\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+C:\Users\wzy15\Desktop\项目\无人机回收\testproject1\testproject1\USER\CAN.uvprojx
+Project File Date:  01/05/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\apps\Keil_v5\ARM\ARMCC\Bin'
+Build target 'CAN'
+compiling main.c...
+main.c(3): warning:  #47-D: incompatible redefinition of macro "__TARGET_FPU_VFP" 
+  #define __TARGET_FPU_VFP
+..\HARDWARE\CONTROL\lkmotor.h(44): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(87): warning:  #175-D: subscript out of range
+  	closed_loop_position(4,motorinfo.motors[4].angle,360);
+main.c(288): warning:  #175-D: subscript out of range
+  			motorinfo.motors[4].can = 0;
+main.c(315): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  			position_c[0] = position_1[0] + delta_x*P*0.04;
+main.c(316): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  			position_c[1] = position_1[1] + delta_y*P*0.04;
+main.c(317): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  			position_c[2] = position_1[2] + delta_z*P*0.04;
+main.c(322): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  			delta_angle[0] = (cable_length_c[0] - cable_length_1[0])*36000/(0.02*
+_PI);
+main.c(323): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  			delta_angle[1] = (cable_length_c[1] - cable_length_1[1])*36000/(0.02*
+_PI);
+main.c(324): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  			delta_angle[2] = (cable_length_c[2] - cable_length_1[2])*36000/(0.02*
+_PI);
+main.c(325): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  			delta_angle[3] = (cable_length_c[3] - cable_length_1[3])*36000/(0.02*
+_PI);
+main.c(33): warning:  #550-D: variable "key"  was set but never used
+    u8 key;
+main.c(34): warning:  #177-D: variable "t"  was declared but never referenced
+  	u8 t=0;	
+main.c(35): warning:  #177-D: variable "canbuf"  was declared but never referenced
+  	u8 canbuf[8]={0x92,0x00,0x00,0x00,0x00,0x00,0x00,0x00};
+main.c(36): warning:  #177-D: variable "res"  was declared but never referenced
+  	u8 res;
+main.c(37): warning:  #177-D: variable "i"  was declared but never referenced
+  	u32 i = 0;
+main.c(38): warning:  #177-D: variable "n"  was declared but never referenced
+  	u32 n =10;
+main.c(45): warning:  #177-D: variable "I"  was declared but never referenced
+  	int32_t I = 1;
+main.c(46): warning:  #177-D: variable "D"  was declared but never referenced
+  	int32_t D = 1;
+main.c(49): warning:  #177-D: variable "mode"  was declared but never referenced
+  	u8 mode=1;  
+main.c(51): warning:  #177-D: variable "rx_buffer"  was declared but never referenced
+  	u8 rx_buffer[64];
+main.c: 21 warnings, 0 errors
+linking...
+Program Size: Code=24148 RO-data=968 RW-data=44 ZI-data=1748  
+FromELF: creating hex file...
+"..\OBJ\Template.axf" - 0 Error(s), 21 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_CAN
+  D:\apps\Keil_v5\ARM\PACK\Keil\STM32H7xx_DFP\2.8.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating cube_pose_fuser.egg-info
+writing cube_pose_fuser.egg-info/PKG-INFO
+writing dependency_links to cube_pose_fuser.egg-info/dependency_links.txt
+writing entry points to cube_pose_fuser.egg-info/entry_points.txt
+writing requirements to cube_pose_fuser.egg-info/requires.txt
+writing top-level names to cube_pose_fuser.egg-info/top_level.txt
+writing manifest file 'cube_pose_fuser.egg-info/SOURCES.txt'
+reading manifest file 'cube_pose_fuser.egg-info/SOURCES.txt'
+writing manifest file 'cube_pose_fuser.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nvidia/ros2_ws/install/cube_pose_fuser/lib/python3.10/site-packages/cube-pose-fuser.egg-link (link to .)
+Installing aruco_marker_logger script to /home/nvidia/ros2_ws/install/cube_pose_fuser/lib/cube_pose_fuser
+Installing cube_pose_fuser script to /home/nvidia/ros2_ws/install/cube_pose_fuser/lib/cube_pose_fuser
+
+Installed /home/nvidia/ros2_ws/build/cube_pose_fuser
+running symlink_data
+creating /home/nvidia/ros2_ws/install/cube_pose_fuser/share/ament_index
+creating /home/nvidia/ros2_ws/install/cube_pose_fuser/share/ament_index/resource_index
+creating /home/nvidia/ros2_ws/install/cube_pose_fuser/share/ament_index/resource_index/packages
+symbolically linking /home/nvidia/ros2_ws/build/cube_pose_fuser/resource/cube_pose_fuser -> /home/nvidia/ros2_ws/install/cube_pose_fuser/share/ament_index/resource_index/packages
+symbolically linking /home/nvidia/ros2_ws/build/cube_pose_fuser/package.xml -> /home/nvidia/ros2_ws/install/cube_pose_fuser/share/cube_pose_fuser

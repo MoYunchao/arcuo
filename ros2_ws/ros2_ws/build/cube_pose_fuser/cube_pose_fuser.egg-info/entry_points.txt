@@ -1,0 +1,4 @@
+[console_scripts]
+aruco_marker_logger = cube_pose_fuser.aruco_marker_logger:main
+cube_pose_fuser = cube_pose_fuser.cube_pose_fuser_node:main
+

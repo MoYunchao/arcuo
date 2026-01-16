@@ -1,0 +1,1 @@
+/home/nvidia/april_tag/build/apriltag_ros/ament_cmake_environment_hooks/local_setup.bash

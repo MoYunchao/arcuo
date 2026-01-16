@@ -1,0 +1,25 @@
+[0.671s] Invoking command in '/home/nvidia/ros2_ws/build/cube_pose_fuser': PYTHONPATH=/home/nvidia/ros2_ws/build/cube_pose_fuser/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/ros2_ws/install/cube_pose_fuser/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nvidia/ros2_ws/build/cube_pose_fuser/build --no-deps symlink_data
+[0.962s] running develop
+[1.136s] running egg_info
+[1.137s] creating cube_pose_fuser.egg-info
+[1.137s] writing cube_pose_fuser.egg-info/PKG-INFO
+[1.137s] writing dependency_links to cube_pose_fuser.egg-info/dependency_links.txt
+[1.137s] writing entry points to cube_pose_fuser.egg-info/entry_points.txt
+[1.137s] writing requirements to cube_pose_fuser.egg-info/requires.txt
+[1.137s] writing top-level names to cube_pose_fuser.egg-info/top_level.txt
+[1.138s] writing manifest file 'cube_pose_fuser.egg-info/SOURCES.txt'
+[1.139s] reading manifest file 'cube_pose_fuser.egg-info/SOURCES.txt'
+[1.140s] writing manifest file 'cube_pose_fuser.egg-info/SOURCES.txt'
+[1.141s] running build_ext
+[1.142s] Creating /home/nvidia/ros2_ws/install/cube_pose_fuser/lib/python3.10/site-packages/cube-pose-fuser.egg-link (link to .)
+[1.143s] Installing aruco_marker_logger script to /home/nvidia/ros2_ws/install/cube_pose_fuser/lib/cube_pose_fuser
+[1.143s] Installing cube_pose_fuser script to /home/nvidia/ros2_ws/install/cube_pose_fuser/lib/cube_pose_fuser
+[1.143s] 
+[1.143s] Installed /home/nvidia/ros2_ws/build/cube_pose_fuser
+[1.143s] running symlink_data
+[1.143s] creating /home/nvidia/ros2_ws/install/cube_pose_fuser/share/ament_index
+[1.143s] creating /home/nvidia/ros2_ws/install/cube_pose_fuser/share/ament_index/resource_index
+[1.143s] creating /home/nvidia/ros2_ws/install/cube_pose_fuser/share/ament_index/resource_index/packages
+[1.143s] symbolically linking /home/nvidia/ros2_ws/build/cube_pose_fuser/resource/cube_pose_fuser -> /home/nvidia/ros2_ws/install/cube_pose_fuser/share/ament_index/resource_index/packages
+[1.144s] symbolically linking /home/nvidia/ros2_ws/build/cube_pose_fuser/package.xml -> /home/nvidia/ros2_ws/install/cube_pose_fuser/share/cube_pose_fuser
+[1.179s] Invoked command in '/home/nvidia/ros2_ws/build/cube_pose_fuser' returned '0': PYTHONPATH=/home/nvidia/ros2_ws/build/cube_pose_fuser/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/ros2_ws/install/cube_pose_fuser/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nvidia/ros2_ws/build/cube_pose_fuser/build --no-deps symlink_data

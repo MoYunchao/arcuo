@@ -1,0 +1,27 @@
+image_width: 1280
+image_height: 800
+camera_name: infra1
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [646.03880022, 0.0, 649.02896747,
+         0.0, 647.76700022, 407.80160379,
+         0.0, 0.0, 1.0]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.00524888, 0.00032887, 0.0032887, 0.00388196, 0.0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1.0, 0.0, 0.0,
+         0.0, 1.0, 0.0,
+         0.0, 0.0, 1.0]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [646.03880022, 0.0, 649.02896747, 0.0,
+         0.0, 647.76700022, 407.80160379, 0.0,
+         0.0, 0.0, 1.0, 0.0]
+

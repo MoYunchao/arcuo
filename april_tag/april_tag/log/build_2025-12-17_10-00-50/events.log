@@ -1,0 +1,226 @@
+[0.000000] (-) TimerEvent: {}
+[0.000522] (apriltag_ros) JobQueued: {'identifier': 'apriltag_ros', 'dependencies': OrderedDict()}
+[0.000651] (apriltag_ros) JobStarted: {'identifier': 'apriltag_ros'}
+[0.010405] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'cmake'}
+[0.010925] (apriltag_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/nvidia/april_tag/src/apriltag_ros', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/nvidia/april_tag/install/apriltag_ros'], 'cwd': '/home/nvidia/april_tag/build/apriltag_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'nvidia'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nvidia'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '951'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3bc9616d9de3548d768118b469420d5b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nvidia/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nvidia:@/tmp/.ICE-unix/951,unix/nvidia:/tmp/.ICE-unix/951'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a194c67f_1823_415e_8eb7_a27160b8e628'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RP4ZH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nvidia/ros2_ws/install/cube_pose_fuser:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nvidia/april_tag/build/apriltag_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3bc9616d9de3548d768118b469420d5b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/ros2_ws/build/cube_pose_fuser:/home/nvidia/ros2_ws/install/cube_pose_fuser/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nvidia/ros2_ws/install/cube_pose_fuser:/opt/ros/humble')]), 'shell': False}
+[0.099749] (-) TimerEvent: {}
+[0.148275] (apriltag_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199867] (-) TimerEvent: {}
+[0.251104] (apriltag_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.261811] (apriltag_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299978] (-) TimerEvent: {}
+[0.340446] (apriltag_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.348677] (apriltag_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.349131] (apriltag_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.349820] (apriltag_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.353514] (apriltag_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400124] (-) TimerEvent: {}
+[0.442094] (apriltag_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.450228] (apriltag_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.450515] (apriltag_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.450997] (apriltag_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.453922] (apriltag_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500249] (-) TimerEvent: {}
+[0.600551] (-) TimerEvent: {}
+[0.625366] (apriltag_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.700661] (-) TimerEvent: {}
+[0.703017] (apriltag_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.800013] (apriltag_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.800726] (-) TimerEvent: {}
+[0.806237] (apriltag_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.817798] (apriltag_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.834353] (apriltag_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.855864] (apriltag_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900828] (-) TimerEvent: {}
+[0.911578] (apriltag_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.915024] (apriltag_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.000936] (-) TimerEvent: {}
+[1.009917] (apriltag_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.036856] (apriltag_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.076753] (apriltag_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.086891] (apriltag_ros) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.101041] (-) TimerEvent: {}
+[1.165495] (apriltag_ros) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.166104] (apriltag_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.201146] (-) TimerEvent: {}
+[1.247648] (apriltag_ros) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.248822] (apriltag_ros) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.301252] (-) TimerEvent: {}
+[1.318997] (apriltag_ros) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.16 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.355560] (apriltag_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.396212] (apriltag_ros) StdoutLine: {'line': b'-- Found apriltag_msgs: 2.0.1 (/opt/ros/humble/share/apriltag_msgs/cmake)\n'}
+[1.401318] (-) TimerEvent: {}
+[1.410987] (apriltag_ros) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.501444] (-) TimerEvent: {}
+[1.504592] (apriltag_ros) StdoutLine: {'line': b'-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[1.526167] (apriltag_ros) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.549574] (apriltag_ros) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") found components: core calib3d \n'}
+[1.557284] (apriltag_ros) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.601529] (-) TimerEvent: {}
+[1.649628] (apriltag_ros) StdoutLine: {'line': b"-- Added test 'clang_format' to check C / C++ code style\n"}
+[1.652883] (apriltag_ros) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.653083] (apriltag_ros) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.653159] (apriltag_ros) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.654819] (apriltag_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.676439] (apriltag_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[1.683469] (apriltag_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/april_tag/build/apriltag_ros\n'}
+[1.694428] (apriltag_ros) CommandEnded: {'returncode': 0}
+[1.695073] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'build'}
+[1.695981] (apriltag_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/april_tag/build/apriltag_ros', '--', '-j4', '-l4'], 'cwd': '/home/nvidia/april_tag/build/apriltag_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'nvidia'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nvidia'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '951'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3bc9616d9de3548d768118b469420d5b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nvidia/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nvidia:@/tmp/.ICE-unix/951,unix/nvidia:/tmp/.ICE-unix/951'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a194c67f_1823_415e_8eb7_a27160b8e628'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RP4ZH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nvidia/ros2_ws/install/cube_pose_fuser:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nvidia/april_tag/build/apriltag_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3bc9616d9de3548d768118b469420d5b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/ros2_ws/build/cube_pose_fuser:/home/nvidia/ros2_ws/install/cube_pose_fuser/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nvidia/ros2_ws/install/cube_pose_fuser:/opt/ros/humble')]), 'shell': False}
+[1.701633] (-) TimerEvent: {}
+[1.761280] (apriltag_ros) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/tags.dir/src/tag_functions.cpp.o\x1b[0m\n'}
+[1.761744] (apriltag_ros) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/conversion.dir/src/conversion.cpp.o\x1b[0m\n'}
+[1.761967] (apriltag_ros) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/apriltag_node.dir/rclcpp_components/node_main_apriltag_node.cpp.o\x1b[0m\n'}
+[1.801756] (-) TimerEvent: {}
+[1.902080] (-) TimerEvent: {}
+[2.002474] (-) TimerEvent: {}
+[2.102776] (-) TimerEvent: {}
+[2.175440] (apriltag_ros) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX static library libtags.a\x1b[0m\n'}
+[2.203212] (-) TimerEvent: {}
+[2.213621] (apriltag_ros) StdoutLine: {'line': b'[ 40%] Built target tags\n'}
+[2.303282] (-) TimerEvent: {}
+[2.403640] (-) TimerEvent: {}
+[2.503974] (-) TimerEvent: {}
+[2.604500] (-) TimerEvent: {}
+[2.704868] (-) TimerEvent: {}
+[2.805237] (-) TimerEvent: {}
+[2.905810] (-) TimerEvent: {}
+[3.006262] (-) TimerEvent: {}
+[3.106640] (-) TimerEvent: {}
+[3.206971] (-) TimerEvent: {}
+[3.307274] (-) TimerEvent: {}
+[3.407630] (-) TimerEvent: {}
+[3.507966] (-) TimerEvent: {}
+[3.608278] (-) TimerEvent: {}
+[3.665127] (apriltag_ros) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libconversion.a\x1b[0m\n'}
+[3.702157] (apriltag_ros) StdoutLine: {'line': b'[ 50%] Built target conversion\n'}
+[3.708336] (-) TimerEvent: {}
+[3.724447] (apriltag_ros) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/pose_estimation.dir/src/pose_estimation.cpp.o\x1b[0m\n'}
+[3.808489] (-) TimerEvent: {}
+[3.908822] (-) TimerEvent: {}
+[4.009153] (-) TimerEvent: {}
+[4.109492] (-) TimerEvent: {}
+[4.209876] (-) TimerEvent: {}
+[4.310218] (-) TimerEvent: {}
+[4.410572] (-) TimerEvent: {}
+[4.510914] (-) TimerEvent: {}
+[4.611242] (-) TimerEvent: {}
+[4.711631] (-) TimerEvent: {}
+[4.811953] (-) TimerEvent: {}
+[4.912311] (-) TimerEvent: {}
+[5.012678] (-) TimerEvent: {}
+[5.113037] (-) TimerEvent: {}
+[5.213402] (-) TimerEvent: {}
+[5.313751] (-) TimerEvent: {}
+[5.414082] (-) TimerEvent: {}
+[5.514418] (-) TimerEvent: {}
+[5.581947] (apriltag_ros) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable apriltag_node\x1b[0m\n'}
+[5.582189] (apriltag_ros) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX static library libpose_estimation.a\x1b[0m\n'}
+[5.614519] (-) TimerEvent: {}
+[5.630095] (apriltag_ros) StdoutLine: {'line': b'[ 80%] Built target pose_estimation\n'}
+[5.655453] (apriltag_ros) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o\x1b[0m\n'}
+[5.714641] (-) TimerEvent: {}
+[5.772305] (apriltag_ros) StdoutLine: {'line': b'[ 90%] Built target apriltag_node\n'}
+[5.814743] (-) TimerEvent: {}
+[5.915043] (-) TimerEvent: {}
+[6.015353] (-) TimerEvent: {}
+[6.115677] (-) TimerEvent: {}
+[6.215954] (-) TimerEvent: {}
+[6.316281] (-) TimerEvent: {}
+[6.416603] (-) TimerEvent: {}
+[6.516868] (-) TimerEvent: {}
+[6.617170] (-) TimerEvent: {}
+[6.717504] (-) TimerEvent: {}
+[6.817816] (-) TimerEvent: {}
+[6.918129] (-) TimerEvent: {}
+[7.018492] (-) TimerEvent: {}
+[7.118808] (-) TimerEvent: {}
+[7.219088] (-) TimerEvent: {}
+[7.319388] (-) TimerEvent: {}
+[7.419687] (-) TimerEvent: {}
+[7.520005] (-) TimerEvent: {}
+[7.620347] (-) TimerEvent: {}
+[7.720719] (-) TimerEvent: {}
+[7.821000] (-) TimerEvent: {}
+[7.921329] (-) TimerEvent: {}
+[8.021630] (-) TimerEvent: {}
+[8.121955] (-) TimerEvent: {}
+[8.222288] (-) TimerEvent: {}
+[8.322653] (-) TimerEvent: {}
+[8.422968] (-) TimerEvent: {}
+[8.523288] (-) TimerEvent: {}
+[8.623629] (-) TimerEvent: {}
+[8.723942] (-) TimerEvent: {}
+[8.824260] (-) TimerEvent: {}
+[8.924686] (-) TimerEvent: {}
+[9.025003] (-) TimerEvent: {}
+[9.125317] (-) TimerEvent: {}
+[9.225675] (-) TimerEvent: {}
+[9.325968] (-) TimerEvent: {}
+[9.426274] (-) TimerEvent: {}
+[9.526602] (-) TimerEvent: {}
+[9.626930] (-) TimerEvent: {}
+[9.727250] (-) TimerEvent: {}
+[9.827559] (-) TimerEvent: {}
+[9.927884] (-) TimerEvent: {}
+[10.028206] (-) TimerEvent: {}
+[10.128602] (-) TimerEvent: {}
+[10.228922] (-) TimerEvent: {}
+[10.329246] (-) TimerEvent: {}
+[10.429563] (-) TimerEvent: {}
+[10.529887] (-) TimerEvent: {}
+[10.630220] (-) TimerEvent: {}
+[10.730542] (-) TimerEvent: {}
+[10.830821] (-) TimerEvent: {}
+[10.931141] (-) TimerEvent: {}
+[11.031460] (-) TimerEvent: {}
+[11.131763] (-) TimerEvent: {}
+[11.232061] (-) TimerEvent: {}
+[11.332367] (-) TimerEvent: {}
+[11.432714] (-) TimerEvent: {}
+[11.533012] (-) TimerEvent: {}
+[11.633345] (-) TimerEvent: {}
+[11.733674] (-) TimerEvent: {}
+[11.833986] (-) TimerEvent: {}
+[11.934285] (-) TimerEvent: {}
+[12.034597] (-) TimerEvent: {}
+[12.134917] (-) TimerEvent: {}
+[12.180718] (apriltag_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libAprilTagNode.so\x1b[0m\n'}
+[12.235052] (-) TimerEvent: {}
+[12.335386] (-) TimerEvent: {}
+[12.435698] (-) TimerEvent: {}
+[12.536004] (-) TimerEvent: {}
+[12.636320] (-) TimerEvent: {}
+[12.637218] (apriltag_ros) StdoutLine: {'line': b'[100%] Built target AprilTagNode\n'}
+[12.648595] (apriltag_ros) CommandEnded: {'returncode': 0}
+[12.649253] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'install'}
+[12.658428] (apriltag_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/april_tag/build/apriltag_ros'], 'cwd': '/home/nvidia/april_tag/build/apriltag_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'nvidia'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nvidia'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '951'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3bc9616d9de3548d768118b469420d5b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nvidia/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nvidia:@/tmp/.ICE-unix/951,unix/nvidia:/tmp/.ICE-unix/951'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a194c67f_1823_415e_8eb7_a27160b8e628'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RP4ZH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nvidia/ros2_ws/install/cube_pose_fuser:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nvidia/april_tag/build/apriltag_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3bc9616d9de3548d768118b469420d5b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/ros2_ws/build/cube_pose_fuser:/home/nvidia/ros2_ws/install/cube_pose_fuser/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nvidia/ros2_ws/install/cube_pose_fuser:/opt/ros/humble')]), 'shell': False}
+[12.666643] (apriltag_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.667181] (apriltag_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.667583] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/april_tag/install/apriltag_ros/lib/apriltag_ros/apriltag_node\n'}
+[12.676735] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/april_tag/install/apriltag_ros/share/apriltag_ros/environment/library_path.sh\n'}
+[12.685063] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/april_tag/install/apriltag_ros/share/apriltag_ros/environment/library_path.dsv\n'}
+[12.695799] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/april_tag/install/apriltag_ros/lib/libAprilTagNode.so\n'}
+[12.705622] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/april_tag/install/apriltag_ros/share/apriltag_ros/cfg/tags_36h11.yaml\n'}
+[12.715389] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/april_tag/install/apriltag_ros/share/apriltag_ros/launch/camera_36h11.launch.yml\n'}
+[12.724065] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/april_tag/install/apriltag_ros/share/ament_index/resource_index/package_run_dependencies/apriltag_ros\n'}
+[12.732670] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/april_tag/install/apriltag_ros/share/ament_index/resource_index/parent_prefix_path/apriltag_ros\n'}
+[12.736416] (-) TimerEvent: {}
+[12.741460] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/april_tag/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.sh\n'}
+[12.749644] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/april_tag/install/apriltag_ros/share/apriltag_ros/environment/ament_prefix_path.dsv\n'}
+[12.758137] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/april_tag/install/apriltag_ros/share/apriltag_ros/environment/path.sh\n'}
+[12.767231] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/april_tag/install/apriltag_ros/share/apriltag_ros/environment/path.dsv\n'}
+[12.776173] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/april_tag/install/apriltag_ros/share/apriltag_ros/local_setup.bash\n'}
+[12.784822] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/april_tag/install/apriltag_ros/share/apriltag_ros/local_setup.sh\n'}
+[12.793577] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/april_tag/install/apriltag_ros/share/apriltag_ros/local_setup.zsh\n'}
+[12.802078] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/april_tag/install/apriltag_ros/share/apriltag_ros/local_setup.dsv\n'}
+[12.811026] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/april_tag/install/apriltag_ros/share/apriltag_ros/package.dsv\n'}
+[12.819780] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/april_tag/install/apriltag_ros/share/ament_index/resource_index/packages/apriltag_ros\n'}
+[12.828330] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/april_tag/install/apriltag_ros/share/ament_index/resource_index/rclcpp_components/apriltag_ros\n'}
+[12.836495] (-) TimerEvent: {}
+[12.836716] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/april_tag/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig.cmake\n'}
+[12.845160] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/april_tag/install/apriltag_ros/share/apriltag_ros/cmake/apriltag_rosConfig-version.cmake\n'}
+[12.853439] (apriltag_ros) StdoutLine: {'line': b'-- Symlinking: /home/nvidia/april_tag/install/apriltag_ros/share/apriltag_ros/package.xml\n'}
+[12.864075] (apriltag_ros) CommandEnded: {'returncode': 0}
+[12.905250] (apriltag_ros) JobEnded: {'identifier': 'apriltag_ros', 'rc': 0}
+[12.905909] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+Invoking command in '/home/nvidia/april_tag/build/apriltag_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/cube_pose_fuser:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/april_tag/build/apriltag_ros -- -j4 -l4
+Invoked command in '/home/nvidia/april_tag/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/cube_pose_fuser:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/april_tag/build/apriltag_ros -- -j4 -l4
+Invoking command in '/home/nvidia/april_tag/build/apriltag_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/cube_pose_fuser:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/april_tag/build/apriltag_ros
+Invoked command in '/home/nvidia/april_tag/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/cube_pose_fuser:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/april_tag/build/apriltag_ros
