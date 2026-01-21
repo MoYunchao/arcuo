@@ -41,10 +41,10 @@ class GripperPoseEstimator(Node):
         # 假设：tag[0]在+X, tag[1]在+Y, tag[2]在-X, tag[3]在-Y
         d = self.tag_distance
         self.object_points = np.array([
-            [+d, 0, 0],   # tag_ids[0]
-            [0, +d, 0],   # tag_ids[1]
-            [-d, 0, 0],   # tag_ids[2]
-            [0, -d, 0],   # tag_ids[3]
+            [0, -d, 0],   # tag_ids[0]
+            [+d, 0, 0],   # tag_ids[1]
+            [0, +d, 0],   # tag_ids[2]
+            [-d, 0, 0],   # tag_ids[3]
         ], dtype=np.float32)
         
         # 相机内参矩阵

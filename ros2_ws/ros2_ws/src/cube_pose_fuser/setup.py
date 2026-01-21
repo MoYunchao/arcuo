@@ -27,6 +27,7 @@ setup(
         	'cube_pose_fuser = cube_pose_fuser.cube_pose_fuser_node:main',
         	'aruco_marker_logger = cube_pose_fuser.aruco_marker_logger:main',
             'gripper_pose_estimator = cube_pose_fuser.gripper_pose_estimator:main',          
+            'rope_keyboard_control = cube_pose_fuser.rope_keyboard_control:main',
         ],
     },
 
